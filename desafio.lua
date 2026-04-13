@@ -112,6 +112,7 @@ while true do -- Loop infinito
          viewBackOfCard() -- Chama função que mostra verso do cartão         
         end
         if userInput == "s" then
+         os.execute("cls")
          break  -- Para execução do loop infinito     
         end
    end
@@ -123,6 +124,7 @@ while true do -- Loop infinito
             viewFrontOfCard()
          end
          if userInput == "s" then
+            os.execute("cls")
          break         
         end
    end
